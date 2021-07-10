@@ -7,6 +7,7 @@ import shutil
 
 root = Tk()
 root.title("Sintrosoft's Video Downloader ")
+root.resizable(width= False,height=False)
 canvas =Canvas(root,width=600, height=600)
 canvas.pack()
 
